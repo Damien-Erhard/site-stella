@@ -1,11 +1,13 @@
 @font-face 
 {
+
     font-family: 'Bangela.otf';
     src: url(fonts/Bangela.otf);
 }
 
 body
  {
+
     background-image: url(img/foret.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +15,7 @@ body
 
 .div-un 
 {
+
     display: flex;
     width: 100%;
     height: auto;
@@ -22,6 +25,7 @@ body
 
 .div-lien
  {
+
     flex-grow: 2;
     justify-content: flex-end;
     display: flex;
@@ -29,29 +33,34 @@ body
 
 a:link
  {
+
     color: white;
     text-decoration: none;
 }
 
 a:visited
  {
+
     color: white;
     text-decoration: none;
 }
 
 a:hover 
 {
+
     color: white;
 }
 
 ul,li 
 {
+
     display: flex;
     margin-left: 13px;
 }
 
 .boutonun 
 {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline;
     width: 50px;
@@ -59,11 +68,11 @@ ul,li
     border-color: white;
     background-color: transparent;
     color: white;
-
 }
 
 .div-text 
 {
+
     padding-top: 10%;
     display: flex;
     flex-direction: column;
@@ -72,12 +81,14 @@ ul,li
 
 .div-p 
 {
+
     display: flex;
     flex-direction: column;
 }
 
 h2 
 {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     color: white;
@@ -85,6 +96,7 @@ h2
 
 p 
 {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: white;
@@ -92,6 +104,7 @@ p
 
 .buttondeux 
 {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
     width: 9%;
@@ -103,6 +116,7 @@ p
 
 .buttontrois 
 {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
     width: 9%;
@@ -116,6 +130,7 @@ p
 
 footer
 {
+
     display: flex;
     height: auto;
     color: rgb(255, 255, 255);
