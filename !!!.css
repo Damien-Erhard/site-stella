@@ -1,79 +1,68 @@
-@font-face
+@font-face 
 {
     font-family: 'Bangela.otf';
     src: url(fonts/Bangela.otf);
 }
 
 body
-{
-    background-image:url(img/foret.jpg);
-    background-repeat:no-repeat;
+ {
+    background-image: url(img/foret.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.div-un
+.div-un 
 {
     display: flex;
     width: 100%;
+    height: auto;
     align-items: center;
-    align-content:flex-end;
+    align-content: flex-end;
 }
 
 .div-lien
-{
+ {
     flex-grow: 2;
     justify-content: flex-end;
     display: flex;
 }
 
-h1
-{
-    font-family:'Bangela.otf';
-    margin-left: 20%;
-    color: aqua;
-}
-
-.div-deux
-{
-    flex-grow: 2;
-    display:flex;
-}
-
 a:link
-{
+ {
     color: white;
     text-decoration: none;
 }
 
 a:visited
-{
+ {
     color: white;
     text-decoration: none;
 }
 
-a:hover
+a:hover 
 {
     color: white;
 }
 
-ul , li
+ul,li 
 {
-    
     display: flex;
     margin-left: 13px;
 }
 
-.boutonun
+.boutonun 
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline;
     width: 50px;
     height: 40px;
-    background-color: red;
+    border-color: white;
+    background-color: transparent;
+    color: white;
 
 }
 
-.div-text
+.div-text 
 {
     padding-top: 10%;
     display: flex;
@@ -81,13 +70,13 @@ ul , li
     text-align: center;
 }
 
-.div-p
+.div-p 
 {
     display: flex;
     flex-direction: column;
 }
 
-h2
+h2 
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
@@ -101,25 +90,35 @@ p
     color: white;
 }
 
-.buttondeux
+.buttondeux 
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
     width: 9%;
     height: 60px;
-    margin-right:2%;
-    margin-top:2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-color: white;
 }
 
-.buttontrois
+.buttontrois 
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
     width: 9%;
     height: 60px;
-    margin-top:2%;
+    margin-top: 2%;
     background-color: transparent;
     color: white;
     border-color: white;
-    
+}
+
+
+footer
+{
+    display: flex;
+    height: auto;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding-top: 20%;
 }
