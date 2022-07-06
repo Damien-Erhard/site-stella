@@ -1,0 +1,56 @@
+body
+{
+    background-image:url(img/foret.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+ 
+    
+}
+
+.div-un
+{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 2%;
+    align-items: center;
+    align-content:flex-end;
+    
+  
+}
+
+.div-lien
+{
+    display: flex;
+    margin-left: 100%;
+}
+
+h1
+{
+    margin-left: 20%;
+    color: aqua;
+}
+
+.div-deux
+{
+    display:flex;
+
+}
+
+ul , li
+{
+    display: flex;
+    margin-left: 13px;
+    
+
+
+}
+
+.boutonun
+{
+    display: inline;
+    width: 50px;
+    height: 40px;
+    background-color: red;
+
+}
